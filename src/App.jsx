@@ -25,19 +25,19 @@ const router = createBrowserRouter([
     errorElement: <div>FEL</div>,    
     children:[
         {
-          path:'/',
+          path:'/catshop0908/',
           element:<Home></Home>,
         },
         {
-          path:'/products',
+          path:'/catshop0908/products',
           element: <Products></Products>,
         },
         {
-          path:'/contact',
+          path:'/catshop0908/contact',
           element: <Contact></Contact>,
         },
         {
-          path:'/product/:id',
+          path:'/catshop0908/product/:id',
            element: <SingleProduct></SingleProduct>,
          }
     ]
